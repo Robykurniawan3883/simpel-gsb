@@ -20,7 +20,7 @@ use App\Models\datakepalakeluarga;
 
 
 //bukutamu
-Route::get('/', 'bukutamuController@index')->name('page-bukutamu');
+Route::get('/', 'App/Http/Controllers/bukutamuController@index')->name('page-bukutamu');
 
 Route::get('/create-bukutamu','bukutamuController@create')->name('create-bukutamu');
 
